@@ -3,11 +3,12 @@
 <head>
     <meta charset = utf-8/>
     <title>Talal's website</title>
-    <link rel = "stylesheet" href ="css/register.css">
+    <link rel = "stylesheet" href ="css/contact.css">
 </head>
-<body background ="img/ac2.jpg">
+<body background="img/rdr_2.jpg">
+<div>
     <header>
-        <div class="container">
+        <div>
             <h1 class="logo"></h1>
 
             <nav>
@@ -22,19 +23,31 @@
             </nav>
         </div>
     </header>
+</div>
 
-    <div class="signup-form">
-        <form class="" action="index.html" method="post">
-            <h1>Sign Up</h1>
-            <input type="text" placeholder="Full Name" class="txtb">
-            <input type="email" placeholder="Email" class="txtb">
-            <input type="password" placeholder="Password" class="txtb">
-            <input type="submit" value="Create Account" class="signup-btn">
-            <a href="#">Already Have one ?</a>
-        </form>
-    </div>
+<div class="container">
+    <form>
+
+        <label> First Name</label>
+        <input type="text" placeholder="Your name..">
+
+        <label>Last Name</label>
+        <input type="text"  placeholder="Your last name..">
+
+        <label>Country</label>
+        <select name="country">
+            <option value="Pakistan">Pakistan</option>
+        </select>
+
+        <label>Subject</label>
+        <textarea placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</div>
 <footer>
- <p> Made by Talal Ahmad Malik</p>
+    <P>Made by Talal Ahmad Malik</P>
     <p>2019 all rights reserved</p>
 </footer>
 </body>
