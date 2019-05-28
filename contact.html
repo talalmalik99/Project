@@ -29,10 +29,10 @@
     <form>
 
         <label> First Name</label>
-        <input type="text" placeholder="Your name..">
+        <input type="text" placeholder="Your name.." pattern=".{2,}" title="two or more characters">>
 
         <label>Last Name</label>
-        <input type="text"  placeholder="Your last name..">
+        <input type="text"  placeholder="Your last name.."  pattern=".{2,}" title="two or more characters">>
 
         <label>Country</label>
         <select name="country">
@@ -40,9 +40,10 @@
         </select>
 
         <label>Subject</label>
-        <textarea placeholder="Write something.." style="height:200px"></textarea>
+        <textarea placeholder="Write something.." style="height:200px" pattern=".{10,}" title="ten or more characters"></textarea>
 
         <input type="submit" value="Submit">
+
 
     </form>
 </div>
